@@ -1,0 +1,1215 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.5">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="mainPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="mainPanel" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="mainTabbedPane" pref="581" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="mainTabbedPane" pref="632" max="32767" attributes="0"/>
+                  <EmptySpace pref="52" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JTabbedPane" name="mainTabbedPane">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="mainTabbedPane" noResource="true"/>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[492, 643]"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="mainTabbedPanePropertyChange"/>
+          </Events>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="connectPanel">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="connectPanel" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Connect" toolTip="Test your WebSYNC connection">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="connectPanel.TabConstraints.tabTitle"/>
+                    <Property name="tabIcon" type="javax.swing.Icon" resourceKey="connectPanel.TabConstraints.tabIcon"/>
+                    <Property name="tabToolTip" type="java.lang.String" resourceKey="connectPanel.TabConstraints.tabToolTip"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="mainConnectLabel" alignment="0" pref="556" max="32767" attributes="0"/>
+                                      <Component id="connectSeparator0" alignment="0" pref="556" max="32767" attributes="0"/>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="connectPanelCurrentStatusLabel" pref="406" max="32767" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="progressBar" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="connectPanelCurrentStatusOverviewLabel" alignment="0" min="-2" pref="324" max="-2" attributes="1"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="connectPanelTestLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="testConnectionButton" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="testConnectionResult" pref="430" max="32767" attributes="0"/>
+                                          <EmptySpace min="-2" pref="126" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="mainConnectLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="connectSeparator0" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="connectPanelCurrentStatusLabel" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="progressBar" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="connectPanelCurrentStatusOverviewLabel" min="-2" pref="60" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jPanel1" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="connectPanelTestLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="testConnectionButton" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="testConnectionResult" min="-2" pref="60" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="mainConnectLabel">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" resourceKey="mainConnectLabel.icon"/>
+                    <Property name="text" type="java.lang.String" resourceKey="mainConnectLabel.text"/>
+                    <Property name="name" type="java.lang.String" value="mainConnectLabel" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="connectPanelCurrentStatusLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="connectPanelCurrentStatusLabel.text"/>
+                    <Property name="name" type="java.lang.String" value="connectPanelCurrentStatusLabel" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="connectPanelCurrentStatusOverviewLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="connectPanelCurrentStatusOverviewLabel.text"/>
+                    <Property name="name" type="java.lang.String" value="connectPanelCurrentStatusOverviewLabel" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="connectSeparator0">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="connectSeparator0" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="connectPanelTestLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="connectPanelTestLabel.text"/>
+                    <Property name="name" type="java.lang.String" value="connectPanelTestLabel" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="testConnectionButton">
+                  <Properties>
+                    <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                      <action class="nz.dataview.websyncclientgui.WebSYNCClientGUIApp" id="testService" methodName="testService"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="testConnectionButton.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="testConnectionButton.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="testConnectionButton" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="testConnectionButtonMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="testConnectionResult">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="testConnectionResult.text"/>
+                    <Property name="name" type="java.lang.String" value="testConnectionResult" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JProgressBar" name="progressBar">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="progressBar" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JPanel" name="jPanel1">
+                  <Properties>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                        <BevelBorder bevelType="1"/>
+                      </Border>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" alignment="0" pref="562" max="32767" attributes="0"/>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" alignment="0" pref="316" max="32767" attributes="0"/>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+                            <EmptyBorder bottom="0" left="10" right="0" top="0"/>
+                          </Border>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+                      </Properties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="connectPanelCurrentStatusDetailsLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" resourceKey="connectPanelCurrentStatusDetailsLabel.text"/>
+                            <Property name="verticalAlignment" type="int" value="1"/>
+                            <Property name="autoscrolls" type="boolean" value="true"/>
+                            <Property name="name" type="java.lang.String" value="connectPanelCurrentStatusDetailsLabel" noResource="true"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="configurePanel">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="configurePanel" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Configure" toolTip="Configure your WebSYNC settings">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="configurePanel.TabConstraints.tabTitle"/>
+                    <Property name="tabIcon" type="javax.swing.Icon" resourceKey="configurePanel.TabConstraints.tabIcon"/>
+                    <Property name="tabToolTip" type="java.lang.String" resourceKey="configurePanel.TabConstraints.tabToolTip"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                          <Component id="mainConfigureLabel" pref="566" max="32767" attributes="1"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="knURLLabel" min="-2" max="-2" attributes="0"/>
+                              <Component id="schoolMOENumberLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="knURLField" alignment="0" min="-2" pref="230" max="-2" attributes="0"/>
+                              <Component id="schoolMOENumberField" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="169" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  <Component id="confAuthKeyLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="confAuthKeyField" min="-2" pref="145" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                                  <Component id="authenticationKeyLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="authenticationKeyField" min="-2" pref="145" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="configSeparator2" alignment="0" min="-2" pref="465" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace pref="101" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                                  <Component id="uploadDirLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="uploadDirField" pref="305" max="32767" attributes="1"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="browseUploadDirButton" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="configSeparator3" min="-2" pref="465" max="-2" attributes="1"/>
+                                  <EmptySpace pref="80" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="configureInfoLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="290" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace pref="402" max="32767" attributes="0"/>
+                          <Component id="configureSaveButton" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="useProxyField" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="proxyPwLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="proxyUserLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="proxyHostLabel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="proxyPortLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="proxyPortField" min="-2" pref="50" max="-2" attributes="1"/>
+                                      <Component id="proxyPwField" min="-2" pref="146" max="-2" attributes="0"/>
+                                      <Component id="proxyHostField" alignment="0" min="-2" pref="230" max="-2" attributes="0"/>
+                                      <Component id="proxyUserField" alignment="0" min="-2" pref="146" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="detectProxyButton" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                          <Component id="proxyDetectedLabel" pref="239" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Component id="configSeparator1" alignment="0" pref="556" max="32767" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="mainConfigureLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="schoolMOENumberField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="schoolMOENumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="knURLLabel" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                              <Component id="knURLField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="configSeparator2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="authenticationKeyField" alignment="3" min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="authenticationKeyLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="confAuthKeyField" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                              <Component id="confAuthKeyLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="configSeparator3" min="-2" pref="3" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="browseUploadDirButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="uploadDirField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="uploadDirLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="configSeparator1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="useProxyField" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="proxyPortField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="proxyPortLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="proxyHostField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="proxyHostLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="proxyUserLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="proxyUserField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="proxyPwLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="proxyPwField" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="detectProxyButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="proxyDetectedLabel" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Component id="configureInfoLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="configureSaveButton" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="mainConfigureLabel">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" resourceKey="mainConfigureLabel.icon"/>
+                    <Property name="text" type="java.lang.String" resourceKey="mainConfigureLabel.text"/>
+                    <Property name="name" type="java.lang.String" value="mainConfigureLabel" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="schoolMOENumberLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="schoolMOENumberLabel.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="schoolMOENumberLabel.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="schoolMOENumberLabel" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="schoolMOENumberLabelMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="uploadDirLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="uploadDirLabel.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="uploadDirLabel.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="uploadDirLabel" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="uploadDirLabelMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="knURLLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="knURLLabel.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="knURLLabel.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="knURLLabel" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="knURLLabelMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="authenticationKeyLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="authenticationKeyLabel.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="authenticationKeyLabel.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="authenticationKeyLabel" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="authenticationKeyLabelMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="confAuthKeyLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="confAuthKeyLabel.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="confAuthKeyLabel.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="confAuthKeyLabel" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="confAuthKeyLabelMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="schoolMOENumberField">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="schoolMOENumberField.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="schoolMOENumberField.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="schoolMOENumberField" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="onConfigFieldChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="knURLField">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="knURLField.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="knURLField.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="knURLField" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="onConfigFieldChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="configSeparator1">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="configSeparator1" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="configSeparator2">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="configSeparator2" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="uploadDirField">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="uploadDirField.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="uploadDirField.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="uploadDirField" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="onConfigFieldChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="configSeparator3">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="configSeparator3" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="configureSaveButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="configureSaveButton.text"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="name" type="java.lang.String" value="configureSaveButton" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="configureSaveButtonActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="configureInfoLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="configureInfoLabel.text"/>
+                    <Property name="name" type="java.lang.String" value="configureInfoLabel" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JPasswordField" name="authenticationKeyField">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="authenticationKeyField.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="authenticationKeyField.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="authenticationKeyField" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="onConfigFieldChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JPasswordField" name="confAuthKeyField">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="confAuthKeyField.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="confAuthKeyField.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="confAuthKeyField" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="onConfigFieldChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="browseUploadDirButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="browseUploadDirButton.text"/>
+                    <Property name="name" type="java.lang.String" value="browseUploadDirButton" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="useProxyField">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="useProxyField.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="useProxyField.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="useProxyField" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="useProxyFieldItemStateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="useProxyFieldActionPerformed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="useProxyField.setSelected(proxyEnabled);"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="proxyPortLabel">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="proxyPortLabel.foreground"/>
+                    <Property name="text" type="java.lang.String" resourceKey="proxyPortLabel.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="proxyPortLabel.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="proxyPortLabel" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="proxyPortLabelMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="proxyPortField">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="proxyPortField.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="proxyPortField.toolTipText"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="name" type="java.lang.String" value="proxyPortField" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="proxyPortFieldMouseClicked"/>
+                    <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="proxyPortFieldPropertyChange"/>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="onAdvancedConfigFieldChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="proxyHostLabel">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="proxyHostLabel.foreground"/>
+                    <Property name="text" type="java.lang.String" resourceKey="proxyHostLabel.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="proxyHostLabel.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="proxyHostLabel" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="proxyHostLabelMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="proxyHostField">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="proxyHostField.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="proxyHostField.toolTipText"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="name" type="java.lang.String" value="proxyHostField" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="proxyHostFieldMouseClicked"/>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="onAdvancedConfigFieldChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="proxyUserLabel">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="proxyUserLabel.foreground"/>
+                    <Property name="text" type="java.lang.String" resourceKey="proxyUserLabel.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="proxyUserLabel.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="proxyUserLabel" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="proxyUserField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="proxyUserField.toolTipText"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="name" type="java.lang.String" value="proxyUserField" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="proxyUserFieldMouseClicked"/>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="onAdvancedConfigFieldChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="proxyPwLabel">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="proxyPwLabel.foreground"/>
+                    <Property name="text" type="java.lang.String" resourceKey="proxyPwLabel.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="proxyPwLabel.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="proxyPwLabel" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JPasswordField" name="proxyPwField">
+                  <Properties>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="proxyPwField.toolTipText"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="name" type="java.lang.String" value="proxyPwField" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="proxyPwFieldMouseClicked"/>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="onAdvancedConfigFieldChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="detectProxyButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="detectProxyButton.text"/>
+                    <Property name="actionCommand" type="java.lang.String" resourceKey="detectProxyButton.actionCommand"/>
+                    <Property name="name" type="java.lang.String" value="detectProxyButton" noResource="true"/>
+                  </Properties>
+                  <AccessibilityProperties>
+                    <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="jButton1.AccessibleContext.accessibleName"/>
+                  </AccessibilityProperties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="detectProxyButtonMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="proxyDetectedLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="proxyDetectedLabel.text"/>
+                    <Property name="name" type="java.lang.String" value="proxyDetectedLabel" noResource="true"/>
+                  </Properties>
+                  <AccessibilityProperties>
+                    <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="proxyDetectedLabel.AccessibleContext.accessibleName"/>
+                  </AccessibilityProperties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="advancedPanel">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="advancedPanel" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="smtpPasswordTextFieldKeyTyped"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Advanced">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="advancedPanel.TabConstraints.tabTitle"/>
+                    <Property name="tabIcon" type="javax.swing.Icon" resourceKey="advancedPanel.TabConstraints.tabIcon"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="mainAdvancedlabel" alignment="0" pref="566" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="configureSeparator1" min="-2" pref="465" max="-2" attributes="1"/>
+                                  <EmptySpace pref="101" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="processUploadLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="processUploadNonSchoolHoursButton" alignment="0" pref="450" max="32767" attributes="1"/>
+                                      <Component id="processUploadSchoolHoursButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="processUploadAlwaysButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jSeparator1" pref="368" max="32767" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="advancedSaveButton" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jSeparator2" alignment="0" pref="498" max="32767" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="243" pref="243" max="243" attributes="0"/>
+                                                  <Component id="failedUploadLabel2" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                                  <Component id="failedUploadSpinner" min="-2" pref="35" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Component id="failedUploadLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Group type="102" attributes="0">
+                                                          <Group type="103" groupAlignment="1" attributes="0">
+                                                              <Component id="smtpUserLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="smtpPasswordLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <Group type="103" groupAlignment="1" attributes="0">
+                                                              <Component id="smtpHostLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="emailLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="emailTextField" pref="269" max="32767" attributes="1"/>
+                                                      </Group>
+                                                      <Component id="smtpUserTextField" alignment="0" pref="269" max="32767" attributes="1"/>
+                                                      <Component id="smtpHostTextField" alignment="1" pref="269" max="32767" attributes="1"/>
+                                                      <Component id="smtpPasswordField" alignment="1" pref="269" max="32767" attributes="1"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="mainAdvancedlabel" min="-2" pref="41" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="configureSeparator1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="processUploadLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="processUploadAlwaysButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="processUploadSchoolHoursButton" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="processUploadNonSchoolHoursButton" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jSeparator2" min="-2" pref="4" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="failedUploadLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="failedUploadSpinner" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="failedUploadLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="emailTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="emailLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="smtpHostTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="smtpHostLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="smtpUserLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="smtpUserTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="smtpPasswordLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="smtpPasswordField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jSeparator1" min="-2" pref="2" max="-2" attributes="0"/>
+                              <Component id="advancedSaveButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="mainAdvancedlabel">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" resourceKey="mainAdvancedlabel.icon"/>
+                    <Property name="text" type="java.lang.String" resourceKey="mainAdvancedlabel.text"/>
+                    <Property name="name" type="java.lang.String" value="mainAdvancedlabel" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="configureSeparator1">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="configureSeparator1" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="advancedSaveButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="advancedSaveButton.text"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="name" type="java.lang.String" value="advancedSaveButton" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="advancedSaveButtonActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="processUploadNonSchoolHoursButton">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="configProcessUploadGroup"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="processUploadNonSchoolHoursButton.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="processUploadNonSchoolHoursButton.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="processUploadNonSchoolHoursButton" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="processUploadButtonChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="processUploadSchoolHoursButton">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="configProcessUploadGroup"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="processUploadSchoolHoursButton.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="processUploadSchoolHoursButton.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="processUploadSchoolHoursButton" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="processUploadButtonChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="processUploadAlwaysButton">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="configProcessUploadGroup"/>
+                    </Property>
+                    <Property name="selected" type="boolean" value="true"/>
+                    <Property name="text" type="java.lang.String" resourceKey="processUploadAlwaysButton.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="processUploadAlwaysButton.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="processUploadAlwaysButton" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="processUploadButtonChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="processUploadLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="processUploadLabel.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="processUploadLabel.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="processUploadLabel" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="failedUploadLabel">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                    <Property name="text" type="java.lang.String" resourceKey="failedUploadLabel.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="failedUploadLabel.toolTipText"/>
+                    <Property name="horizontalTextPosition" type="int" value="4"/>
+                    <Property name="name" type="java.lang.String" value="failedUploadLabel" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="failedUploadLabelMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JSpinner" name="failedUploadSpinner">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" resourceKey="failedUploadSpinner.font"/>
+                    <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                      <SpinnerModel initial="0" maximum="1440" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="failedUploadSpinner.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="failedUploadSpinner" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="failedUploadSpinnerStateChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="failedUploadLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="failedUploadLabel2.text"/>
+                    <Property name="name" type="java.lang.String" value="failedUploadLabel2" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="emailTextField">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="emailTextField.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="emailTextField.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="emailTextField" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="emailTextFieldKeyTyped"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="emailLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="emailLabel.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="emailLabel.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="emailLabel" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="emailLabelMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="smtpHostLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="smtpHostLabel.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="smtpHostLabel.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="smtpHostLabel" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="smtpHostLabelMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="smtpHostTextField">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="smtpHostTextField.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="smtpHostTextField.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="smtpHostTextField" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="smtpHostTextFieldKeyTyped"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="smtpUserLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="smtpUserLabel.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="smtpUserLabel.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="smtpUserLabel" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="smtpUserLabelMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="smtpPasswordLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="smtpPasswordLabel.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="smtpPasswordLabel.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="smtpPasswordLabel" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="smtpPasswordLabelMouseClicked"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="smtpUserTextField">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="smtpUserTextField.text"/>
+                    <Property name="name" type="java.lang.String" value="smtpUserTextField" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="smtpUserTextFieldKeyTyped"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator1">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="jSeparator1" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator2">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="jSeparator2" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JPasswordField" name="smtpPasswordField">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="smtpPasswordField.text"/>
+                    <Property name="toolTipText" type="java.lang.String" resourceKey="smtpPasswordField.toolTipText"/>
+                    <Property name="name" type="java.lang.String" value="smtpPasswordField" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="smtpPasswordTextFieldKeyTyped"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="viewLogPanel">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="viewLogPanel" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="View Log" toolTip="View your WebSYNC logs">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="viewLogPanel.TabConstraints.tabTitle"/>
+                    <Property name="tabIcon" type="javax.swing.Icon" resourceKey="viewLogPanel.TabConstraints.tabIcon"/>
+                    <Property name="tabToolTip" type="java.lang.String" resourceKey="viewLogPanel.TabConstraints.tabToolTip"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="viewLogInfoLabel" alignment="0" pref="556" max="32767" attributes="0"/>
+                              <Component id="mainViewLogLabel" alignment="0" pref="556" max="32767" attributes="0"/>
+                              <Component id="emailLogsButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="viewLogScrollPane" alignment="0" min="-2" pref="547" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="mainViewLogLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="viewLogInfoLabel" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="viewLogScrollPane" min="-2" pref="375" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="emailLogsButton" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="90" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="mainViewLogLabel">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" resourceKey="mainViewLogLabel.icon"/>
+                    <Property name="text" type="java.lang.String" resourceKey="mainViewLogLabel.text"/>
+                    <Property name="name" type="java.lang.String" value="mainViewLogLabel" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="viewLogScrollPane">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="viewLogScrollPane" noResource="true"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextPane" name="viewLogTextPane">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="viewLogTextPane" noResource="true"/>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="viewLogTextPane.setText(VIEW_LOG_INITIAL);"/>
+                      </AuxValues>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="viewLogInfoLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="viewLogInfoLabel.text"/>
+                    <Property name="name" type="java.lang.String" value="viewLogInfoLabel" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="emailLogsButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="emailLogsButton.text"/>
+                    <Property name="name" type="java.lang.String" value="emailLogsButton" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="emailLogsMouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="aboutPanel">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="aboutPanel" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="About" toolTip="About WebSYNC Client">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="aboutPanel.TabConstraints.tabTitle"/>
+                    <Property name="tabIcon" type="javax.swing.Icon" resourceKey="aboutPanel.TabConstraints.tabIcon"/>
+                    <Property name="tabToolTip" type="java.lang.String" resourceKey="aboutPanel.TabConstraints.tabToolTip"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="aboutScrollPane" alignment="0" pref="556" max="32767" attributes="0"/>
+                              <Component id="mainAboutLabel" alignment="0" pref="556" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="mainAboutLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="aboutScrollPane" pref="540" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="mainAboutLabel">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" resourceKey="mainAboutLabel.icon"/>
+                    <Property name="text" type="java.lang.String" resourceKey="mainAboutLabel.text"/>
+                    <Property name="name" type="java.lang.String" value="mainAboutLabel" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="aboutScrollPane">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="aboutScrollPane" noResource="true"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="aboutScrollPane.getViewport().setViewPosition(new java.awt.Point(0, 0));"/>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextPane" name="aboutTextPane">
+                      <Properties>
+                        <Property name="contentType" type="java.lang.String" resourceKey="aboutTextPane.contentType"/>
+                        <Property name="editable" type="boolean" value="false"/>
+                        <Property name="text" type="java.lang.String" resourceKey="aboutTextPane.text"/>
+                        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[532, 9882]"/>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="aboutTextPane" noResource="true"/>
+                      </Properties>
+                      <AccessibilityProperties>
+                        <Property name="AccessibleContext.accessibleDescription" type="java.lang.String" resourceKey="aboutTextPane.AccessibleContext.accessibleDescription"/>
+                      </AccessibilityProperties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JFileChooser" name="dirFileChooser">
+      <Properties>
+        <Property name="fileSelectionMode" type="int" value="1"/>
+        <Property name="name" type="java.lang.String" value="dirFileChooser" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="configProcessUploadGroup">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="component" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="mainPanel"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-73,0,0,2,89"/>
+  </AuxValues>
+</Form>
